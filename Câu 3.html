@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <title>You can!</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: url("cau3.gif") repeat;
+      text-align: center;
+    }
+    h1 {
+      color: #b23a7d;
+      font-size: 36px;
+      margin-top: 50px;
+    }
+    .container {
+      width: 420px;
+      margin: 30px auto;
+      border: 1px solid #b23a7d;
+      padding: 10px;
+      background-color: #fff;
+    }
+    .row {
+      display: flex;
+      justify-content: space-between;
+      padding: 5px 0;
+      border-bottom: 1px solid #b23a7d;
+    }
+    .row:last-child {
+      border-bottom: none;
+    }
+    .column {
+      width: 48%;
+      text-align: left;
+    }
+    .name {
+      font-weight: bold;
+      color: green;
+    }
+    .ability {
+      font-style: italic;
+      color: #b23a7d;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>You can!</h1>
+
+  <div class="container">
+    <div class="row">
+      <div class="column">
+        Tôi là: <span class="name">Liên</span><br>
+        Tôi có thể: <span class="ability">Lên tiên</span>
+      </div>
+      <div class="column">
+        Tôi là: <span class="name">Quang</span><br>
+        Tôi có thể: <span class="ability">Đi hoang</span>
+      </div>
+    </div>
+    <div class="row">
+      <div class="column">
+        Tôi là: <span class="name">Thanh</span><br>
+        Tôi có thể: <span class="ability">Ăn chanh</span>
+      </div>
+      <div class="column">
+        Tôi là: <span class="name">&lt;your name&gt;</span><br>
+        Tôi có thể: <span class="ability">&lt;your ability&gt;</span>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
